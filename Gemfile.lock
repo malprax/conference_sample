@@ -475,6 +475,7 @@ GEM
     will_paginate-bootstrap (1.0.1)
       will_paginate (>= 3.0.3)
     wkhtmltopdf-binary (0.12.3)
+    workflow (1.2.0)
     xml-simple (1.1.5)
 
 PLATFORMS
@@ -540,6 +541,7 @@ DEPENDENCIES
   wicked_pdf
   will_paginate-bootstrap
   wkhtmltopdf-binary
+  workflow
 
 BUNDLED WITH
    1.11.2
