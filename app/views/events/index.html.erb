@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Events</h1>
+<h3>Listing Events</h3>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Title</th>
@@ -20,7 +20,7 @@
     <% @events.each do |event| %>
       <tr>
         <td><%= event.title %></td>
-        <td><%= event.start_date %></td>
+        <td><%= event.start_date, formats= :date_format %></td>
         <td><%= event.end_date %></td>
         <td><%= event.location %></td>
         <td><%= event.agenda %></td>
